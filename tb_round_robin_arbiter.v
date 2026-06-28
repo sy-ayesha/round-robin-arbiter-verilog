@@ -1,9 +1,6 @@
-// ============================================================
 // Testbench — Round Robin Arbiter
-// VLSI Open Ended Lab — EL-408
-// NED University of Engineering and Technology
 // Simulated in ModelSim
-// ============================================================
+
 
 `timescale 1ns/1ps
 
