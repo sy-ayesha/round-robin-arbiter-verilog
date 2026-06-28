@@ -1,8 +1,3 @@
-// ============================================================
-// Round Robin Arbiter Module
-// VLSI Open Ended Lab — EL-408
-// NED University of Engineering and Technology
-// ============================================================
 // 4-input Round-Robin Arbiter with Fixed-Time Slice Allocation
 // Each request gets TIME_SLICE clock cycles of access
 // Grant output is one-hot encoded
