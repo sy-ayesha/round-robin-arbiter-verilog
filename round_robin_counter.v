@@ -1,8 +1,4 @@
-// ============================================================
 // Round Robin Counter Module
-// VLSI Open Ended Lab — EL-408
-// NED University of Engineering and Technology
-// ============================================================
 // Counts from 0 to N-1 and repeats (wraps around)
 
 module round_robin_counter #(parameter N = 4) (
