@@ -1,10 +1,5 @@
 # Round-Robin Arbiter — Verilog HDL 
 
-**VLSI Open Ended Lab | EL-408 | NED University of Engineering and Technology**  
-Course Instructor: Ms. Mariam Jamshaid
-
----
-
 ##  Project Title
 **Design and Implementation of a Verilog-based Round-Robin Arbiter with Fixed-Time Slice Allocation**
 
@@ -18,7 +13,7 @@ The design prevents **starvation** and ensures **fair, predictable scheduling** 
 
 ---
 
-## ⚙️ Features
+##  Features
 
 -  4-input Round-Robin scheduling
 -  Fixed Time Slice allocation (4 clock cycles per request)
