@@ -32,7 +32,9 @@ round-robin-arbiter-verilog/
 ├── round_robin_counter.v        # 2-bit counter cycling 0 to N-1
 ├── round_robin_arbiter.v        # Main arbiter with time-slice logic
 ├── tb_round_robin_arbiter.v     # Testbench with multiple test cases
-└── README.md
+├── README.md
+├── block_diagram.png
+└── Project report
 ```
 
 ---
