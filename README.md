@@ -39,15 +39,10 @@ round-robin-arbiter-verilog/
 
 ##  Block Diagram
 
-```
-REQ[3:0] ──┐
-CLK ────────┤  Round-Robin Arbiter  ├──► GRANT[3:0]
-RST ────────┘  ┌──────────────────┐
-               │ RR Counter       │
-               │ Time-Slice Ctr   │
-               │ Arbitration Logic│
-               └──────────────────┘
-```
+## Block Diagram
+
+![Block Diagram](block_diagram.png.png)
+
 
 ---
 
@@ -74,18 +69,3 @@ Simulated using **ModelSim**. Test cases include:
 
 Waveforms confirm correct one-hot grant rotation and 4-cycle time slice duration (≈ 40 ns per grant at 100 MHz).
 
----
-
-##  Group Members
-
-| Name             | Roll No   |
-|------------------|-----------|
-| Syeda Ayesha Ali | EL-22008  |
-| Faraz Malik Awan | EL-22049  |
-| Zukhruf Khan     | EL-22059  |
-| Tamseela Hussain | EL-22062  |
-
----
-
-## 🏷️ Topics
-`verilog` `fpga` `vlsi` `digital-design` `round-robin` `arbiter` `modelsim` `hdl` `neduet`
